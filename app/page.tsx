@@ -1,21 +1,27 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        ar://kemp
       </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+      <p className="mb-4 prose">
+        Building blockchain ecosystems. Currently focused on the Permaweb as
+        Head of Ecosystem @{" "}
+        <a href="https://pds.inc/" target="_blank">
+          PDS Inc
+        </a>
+        , decentralising access to Arweaave with{" "}
+        <a href="https://ar.io/" target="_blank">
+          AR.IO Network
+        </a>
+        . Supporting builders and founders to solve problems where data
+        permanence and provenance matters.
       </p>
       <div className="my-8">
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
