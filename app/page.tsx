@@ -19,9 +19,9 @@ export default function Page() {
         . Supporting builders and founders to solve problems where data
         permanence and provenance matters.
       </p>
-      <div className="my-8">
+      {/* <div className="my-8">
         <BlogPosts />
-      </div>
+      </div> */}
     </section>
   );
 }
