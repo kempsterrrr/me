@@ -8,34 +8,42 @@ const workHistory = [
     endDate: "current",
     url: "https://pds.inc",
     descriprtion:
-      "Building a duel ecosystem of decentralised Arweave gateways and products on the permanent web.",
-  },
-  {
-    company: "Developer DAO",
-    title: "Director, Developer DAO Foundation",
-    startDate: "Sep, 2024",
-    endDate: "current",
-    url: "https://pds.inc",
-    descriprtion:
-      "Building a duel ecosystem of decentralised Arweave gateways and products on the permanent web.",
+      "Decentralizing access to Arweave with AR.IO Network. Supporting builders and founders to build a better future on the permanent web.",
   },
   {
     company: "P3RKS",
     title: "Founder",
-    startDate: "Sep, 2024",
+    startDate: "July, 2022",
+    endDate: "current",
+    url: "https://perks.xyz/",
+    descriprtion: "Tried to create a token gated benefits platform for DAOs",
+  },
+  {
+    company: "Developer DAO",
+    title: "Dir, Foundation",
+    startDate: "Sep, 2021",
     endDate: "current",
     url: "https://pds.inc",
     descriprtion:
-      "Building a duel ecosystem of decentralised Arweave gateways and products on the permanent web.",
+      "Early contributor and foundation director, focused on ops, partnerships and governance. Forever my spitirual home in web3.",
+  },
+  {
+    company: "Growable",
+    title: "Founder",
+    startDate: "May, 2019",
+    endDate: "current",
+    url: "https://growable.io/",
+    descriprtion:
+      "Established events brand in London under Talent Point. Worked with Cazoo, MADE.com and many more to plan and host events to attract new technical talent.",
   },
   {
     company: "Talent Point",
     title: "Head of Growth",
-    startDate: "Sep, 2024",
+    startDate: "Oct, 2013",
     endDate: "current",
-    url: "https://pds.inc",
+    url: "https://talentpoint.co",
     descriprtion:
-      "Building a duel ecosystem of decentralised Arweave gateways and products on the permanent web.",
+      "Started as 360 recruiter working with the c-suite of London's premier start-ups to estbalish and grow technical teams quickly and sustainably. Promoted consistently, final role as Head of Growth where I led rebrand and rebuild of website, implented and automated first real sales pipeline that drove mulitple 6 figures in revenue.",
   },
 ];
 
@@ -52,7 +60,7 @@ export default function Page() {
       </h1>
       <div>
         {workHistory.map((work, index) => (
-          <div className="mb-4">
+          <div className="mb-8">
             <a
               key={work.title}
               className="flex flex-col space-y-1"
