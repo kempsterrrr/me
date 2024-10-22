@@ -8,7 +8,7 @@ const workHistory = [
     endDate: "current",
     url: "https://pds.inc",
     descriprtion:
-      "Decentralizing access to Arweave with AR.IO Network. Supporting builders and founders to build a better future on the permanent web.",
+      "Decentralizing access to Arweave with AR.IO Network. Supporting builders and founders to build a better and more decentralised future on the permanent web.",
   },
   {
     company: "P3RKS",
